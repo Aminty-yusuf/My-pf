@@ -1,0 +1,345 @@
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: none;
+    padding: 20px 20px 20px 20px;
+    justify-content: center;
+    display: flex;
+    background-color: chocolate;
+    background-size: auto;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 15px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Add hover effect to the navigation links*/
+nav ul li a:hover {
+    color: white;
+}
+
+/*Hero-section*/
+.hero {
+    background-color: orange;
+    padding: 80px;
+    text-align: center;
+}
+
+.hero-content {
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero h2 {
+    font-size: 30px;
+}
+
+.button {
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: orange;
+}
+
+/*styles for the container that holds the profile picture and its related content*/
+.about-me {
+    text-align: center;
+    /*center-align the content inside the container*/
+    max-width: 400px;
+    /*sets the maximum width of the container*/
+    margin: 0 auto;
+    /*centers the container horizontally on the page*/
+}
+
+/*styles for the main heading "About Me"*/
+h1 {
+    font-size: 24px;
+    /*Sets the font size for the heading*/
+    margin-top: 10px;
+    /*Adds a small top margin for spacing*/
+}
+
+/*styles for paragraphs*/
+p {
+    font-size: 20px;
+    /*sets the font size for paragraphs*/
+    margin-bottom: 20px;
+    /*Adds a margin at the bottom for spacing*/
+    text-align: justify;
+    /*Justifies the text within paragraphs*/
+    line-height: 1.5;
+    /*Adjusts the line height for better readability*/
+    color: #333;
+    /*Changes the text color*/
+    background-color: #f5f5f5;
+    /*Adds a background color to the paragraph*/
+    padding: 10px;
+    /*Adds padding around the paragraph*/
+    border: 1px solid #ccc;
+    /* Adds a border around the paragraph*/
+}
+
+/*Styles for unodered lists*/
+ul {
+    list-style: none;
+    /*Removes default list styles (bullets)*/
+    padding: 0;
+    /*Removes padding around the list*/
+    margin: 0;
+    /*Remove margin around the list*/
+}
+
+/*Styles for list items within unordered lists*/
+li {
+    display: inline-block;
+    /*Displays list items in a row*/
+    margin-right: 10px;
+    /*Add a small margin to separate list items*/
+}
+
+/*Styles for links within list items*/
+li a {
+    text-decoration: none;
+    /*Remove underline from links*/
+    color: white;
+    /*Changes link color to orange*/
+    transition: background-color 0.3s;
+    /*Adds a smooth transition for background color changes*/
+}
+
+/*Styles for link hover state*/
+li a:hover {
+    background-color: whitesmoke;
+    /*Changes background color on link hover*/
+    color: white;
+    /*Changes text color on link hover*/
+}
+
+/*Styles for visited links*/
+li a visited {
+    color: white;
+    /*Changes color of visited links to orange*/
+}
+
+
+/*service section styles*/
+.service-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*General link styles*/
+a {
+    color: #000;
+    /*Sets default link color to black*/
+    text-decoration: none;
+    /*Removes underline from links*/
+    font-weight: bold;
+    /*Makes the link text bold*/
+}
+
+/*Styles for images*/
+img {
+    border-radius: 50%;
+    /*Adds a circular border to the images*/
+    width: 200px;
+    /*Sets the width of images*/
+    height: 200px;
+    /*Sets the height of images*/
+    object-fit: cover;
+    /*Maintains aspect ratio and covers the image box*/
+    margin-bottom: 20px;
+    /*Adds a margin at the bottom for spacing*/
+}
+
+
+/*servicesection styles*/
+.service-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-card {
+    width: 30%;
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px;
+    box-sizing: border-box;
+}
+
+.service-card h3 {
+    color: antiquewhite;
+}
+
+.service-card p {
+    color: black;
+
+}
+
+/*contact section*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:brown;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 2px;
+    resize: vertical;
+}
+
+.form-group input[type="submit"] {
+    background-color: aquamarine;
+    color: darkgrey;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: blue;
+}
+
+.form-group textarea {
+    height: 120px;
+}
+/*footer-section*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+
+}
+
+.footer {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 10px 0 30px;
+    border-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+    background-color: lawngreen;
+}
+    .row {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .footer-col {
+        flex-basis: 25px;
+        padding: 0 15px;
+    }
+
+    .footer-col h4 {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+        font-weight: 500px;
+        position: relative;
+    }
+
+    .footer-col h4::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #e91e63;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    .footer-col ul li a:hover {
+        color: palevioletred;
+        padding-left: 8px;
+    }
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 60px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 40%;
+        color: #ffffff;
+    }
+    .footer-col .social-link a i :hover{
+        color: blueviolet;
+        background-color: #e91e63;
+    }
+    @media screen and (max-width:600px) {
+        
+    }
